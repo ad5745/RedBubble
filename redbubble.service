@@ -1,0 +1,7 @@
+[Unit]
+Description=redbubble
+Wants=redbubble.timer
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /tmp/redbubble.sh
